@@ -51,4 +51,4 @@
 
 ### 架构图
 
-![lite-job](lite-job/doc/images/lite-job-jiagou.png)
+![lite-job](https://github.com/iluoxuan/lite-job/blob/master/doc/images/lite-job-jiagou.png)

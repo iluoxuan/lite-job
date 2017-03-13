@@ -49,3 +49,5 @@
 * 提供任务监控机制 【邮件报警】
 *【第一期不提供任务分片】
 
+### 架构图
+![lite-job](lite-job/doc/images/lite-job-jiagou.png)

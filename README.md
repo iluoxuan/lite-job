@@ -49,6 +49,9 @@
 * 提供任务监控机制 【邮件报警】
 *【第一期不提供任务分片】
 
+### 架构图
+
+![lite-job](https://github.com/iluoxuan/lite-job/blob/master/doc/images/lite-job-jiagou.png)
 
 ### 服务端触发客户端【负载均衡】
 ### zookeeper节点设计

@@ -1,5 +1,7 @@
 package com.lite.job.admin.domain;
 
+import lombok.Data;
+
 import java.util.Date;
 
 /**
@@ -7,6 +9,7 @@ import java.util.Date;
  *
  * job事件触发log
  */
+@Data
 public class JobEventLog {
 
 	private Integer jobId;

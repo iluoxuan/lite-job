@@ -49,3 +49,19 @@
 * 提供任务监控机制 【邮件报警】
 *【第一期不提供任务分片】
 
+
+### 服务端触发客户端【负载均衡】
+### zookeeper节点设计
+   
+   /app
+      /jobname
+         /clients
+            /ip1
+               status
+            /ip2    
+              
+* 服务端 配置勾选 不用分片
+* 对clients做负载均衡
+* 选取一个 更新zookerper节点
+
+

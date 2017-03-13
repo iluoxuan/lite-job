@@ -43,6 +43,7 @@
         <junit.version>4.12</junit.version>
         <guava.version>20.0</guava.version>
         <quartz.version>2.2.1</quartz.version>
+        <curator.version>2.10.0</curator.version>
 
         <maven-source-plugin.version>2.2.1</maven-source-plugin.version>
         <maven-jar-plugin.version>2.4</maven-jar-plugin.version>
@@ -121,6 +122,27 @@
                 <version>${quartz.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-framework</artifactId>
+                <version>${curator.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-client</artifactId>
+                <version>${curator.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-recipes</artifactId>
+                <version>${curator.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-test</artifactId>
+                <version>${curator.version}</version>
+            </dependency>
+            
         </dependencies>
 
     </dependencyManagement>

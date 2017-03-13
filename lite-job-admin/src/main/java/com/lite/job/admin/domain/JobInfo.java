@@ -28,6 +28,9 @@ public class JobInfo {
 
 	private String status;
 
+	/** 分片信息 **/
+	private String shard;
+
 	/** 报警邮件 **/
 	private String email;
 
